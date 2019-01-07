@@ -12,17 +12,15 @@
     tools:context="com.londonappbrewery.iampoor.MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/text_am"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="76dp"
-        android:layout_marginLeft="76dp"
-        android:layout_marginTop="70dp"
-        android:layout_marginEnd="9dp"
-        android:layout_marginRight="9dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
         android:layout_toStartOf="@+id/text_poor"
         android:layout_toLeftOf="@+id/text_poor"
         android:text="@string/app_name"
@@ -36,7 +34,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="19dp"
         android:layout_marginEnd="68dp"
         android:layout_marginRight="68dp"
         android:text="@string/poor"
@@ -48,9 +46,11 @@
         android:id="@+id/image_coal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="58dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginBottom="69dp"
         app:srcCompat="@drawable/coal" />
 
 </RelativeLayout>
